@@ -1,0 +1,35 @@
+body {
+	padding: 20px;
+	margin: 20px auto;
+	border: 20px solid gray;
+	font-family: 'Source Sans Pro';
+	width: 80%;
+	max-width: 700px;
+}
+.article {
+	margin-bottom: 20px;
+}
+
+h3 {
+	color:  #3385ff;
+	font-weight: normal;
+	letter-spacing: 0.2rem;/*rem is relative size to the base element*/
+	margin-top: 2px;
+}
+
+h2 {
+	color: navy;
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	font-size: 2.0rem;
+}
+
+.first {
+	border-left: 5px solid gray;
+	padding-left: 5px;
+}
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
